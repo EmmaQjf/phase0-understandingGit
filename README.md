@@ -77,3 +77,11 @@ git merge explainConcepts
 git push origin main
 ----Pull ensures your local main is up to date with GitHub.
 Then merge your branch safely
+
+
+
+
+PULL & REQUESTS
+
+If you merge locally before pushing → PR is unnecessary. (git merge feature, git push origin main. the merge happend locally, then push the main to the remote.)
+If you want code reviewed → push the branch first and open a PR. (git push -u origin feature, github sees feature and main do not match, so you can open a PR → “Merge feature into main” and GitHub combines the branches)
